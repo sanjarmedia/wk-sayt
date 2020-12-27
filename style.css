@@ -1,0 +1,198 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background: #1E90FF;
+}
+.logo{
+    width: 64.35px;
+    height: 57px;
+    background: linear-gradient(108.1deg, #39C2FF 18.24%, #156CFF 74.05%);
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.pre-logo{
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.9968px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: -100;
+}
+.logo > svg{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.quyosh{
+    margin-left: 25px;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: 20%;
+}
+.link > a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.link > button{
+    width: 210px;
+    height: 50px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link > button:hover{
+    background-color:#2B87FF;
+    cursor: pointer;
+}
+.boshjoy{
+    width: 100%;
+    background-color: white;
+    height: 10px;
+}
+.content1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+.card{
+    padding-top: 7px;
+    width: 360px;
+    height: 120px;
+    background: #1E90FF;
+    border-radius: 26px; 
+    display: flex;
+
+}
+.card-body{
+  margin-left: 20px;
+  text-align: center;
+  width: 100px;
+  margin-right: -20px;
+}
+.card-body> button{
+    width: 90px;
+    height: 30px;
+    border: 3px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+    border-radius: 11px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-text{
+    color: white;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 25px;
+    line-height: 36px;
+    width: 300px;
+    text-align: left;
+}
+.card-body> button:hover{
+    background-color: #ffffff;
+    color:#1E90FF;
+    border: 3px solid #1872cc;
+}
+.card2{
+    width: 100%;
+    height: 300px;
+    background-color:#F9F9F9;
+    border-radius: 25px;
+    width: 360px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.card2-sariq{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.card2-sariq > p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.sariq{
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    background: #FFE144;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.card2-sariq > p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #615C5C;
+    width: 200px;
+    text-align: left;
+    height: 50px;
+}
+.qizil{
+   
+    background: #FF4444;
+}
+.sabzirang{
+background: #FF9244;
+}
+.yashil{
+background: #3AFF7D;
+}
+.card2-sariq:hover{
+   background: #1E90FF;
+}
+.card2-sariq > p:hover{
+    color: white;
+}
+.content2{
+    
+}
